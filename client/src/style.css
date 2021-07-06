@@ -1,0 +1,634 @@
+/*==================================================|        |==============================*/
+/*==================================================|  home  |==============================*/
+.home {
+	min-height: 500px;
+	/*padding-top: 50px;*/
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #00c6ff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	/*justify-content: center;*/
+	justify-content: space-around;
+	/*z-index:-1;*/
+    /*position:relative;*/
+}
+.home h3 {
+	margin: 10px;
+	color: darkred;
+	font-size: 35px;
+	font-weight: bold;
+}
+.home h2 {
+	padding-top: 50px;
+    padding-bottom: 50px;
+	color: darkred;
+	font-size: 35px;
+	font-weight: bold;
+}
+.home h4 {
+	margin: 5px;
+	margin-left: -1100px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.App-logo {
+	height: 15vmin;
+	margin-top: -40px;
+	padding: 15px;
+	pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 30s linear;
+	}
+}
+@keyframes App-logo-spin {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+.home h1 {
+	width: 80%;
+	margin: 1em;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: lightblue;
+	border: 2px solid black;
+	color: royalblue;
+	border-radius: 20px;
+	text-align: center;
+	font-style: normal;
+}
+.home .selectOption {
+	width: 90%;
+	font-size: 18px;
+	align-items:right;
+	align-content:right;
+	text-align:right;
+	margin-bottom: -8px;
+}
+.home select {
+	min-width: auto;
+	font-size: 17px;
+	align-items:right;
+	align-content:right;
+	text-align:right;
+	border-radius: 5px;
+	background-color: #f5dc73;
+	height: 28px;
+	outline: none;
+}
+/*==================================================|  posts  |==============================*/
+.posts {
+	min-height: 400px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #00c6ff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	/*justify-content: center;*/
+	justify-content: space-around;
+}
+.posts h1 {
+	min-width: 33%;
+	width: auto;
+	margin-top: 1px;
+	padding: 10px;
+	color: royalblue;
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.posts h2 {
+	margin: 30px;
+	margin-top: 50px;
+	color: darkred;
+	font-size: 35px;
+	font-weight: bold;
+}
+.posts-box {
+	width: 60%;
+	margin-bottom: 30px;
+	background-color: #f3ca20;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.posts-box input {
+	width: 40%;
+	margin: 8px 0;
+	padding: 6px 10px;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 5px;
+	/*box-sizing: border-box;*/
+}
+.posts-box textarea {
+	width: 90%;
+	height: 150px;
+	padding: 6px 10px;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 5px;
+	resize: none;
+	/*box-sizing: border-box;*/
+}
+.posts-box button {
+	width: auto;
+	min-width: 15%;
+	margin: 10px;
+	padding: 5px;
+	background-color: black;
+	color: #f3ca20;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 33px;
+	outline: none;
+	cursor: pointer;
+}
+.posts-one-post {
+	width: 90%;
+	margin: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: black;
+}
+.onepost {
+	width: 95%;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #f3ca20;
+}
+.onepost button {
+	width: auto;
+	min-width: 5%;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	color: #f3ca20;
+	font-size: 16px;
+	border: 1px solid black;
+	border-radius: 35px;
+	cursor: pointer;
+	background-color: black;
+	float: right;
+	outline: none;
+}
+.onepost h2 {
+	margin: 15px;
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+.onepost h3 {
+	/*margin: 15px;*/
+	margin-bottom: -2px;
+	/*font-size: 30px;*/
+}
+.onepost h4 {
+	margin: -1px;
+	margin-left: 20px;
+	font-size: 15px;
+	text-align: left;
+	color: gray;
+	font-weight: normal;
+}
+.onepost p {
+	margin: 20px;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+}
+.onepost input {
+	width: 40%;
+	margin: 15px ;
+	padding: 6px 10px;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-weight: bold;
+	color: darkred;
+	background-color: #f5dc73;
+}
+.onepost textarea {
+	width: 95%;
+	height: 150px;
+	padding: 15px;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 5px;
+	resize: none;
+	box-sizing: border-box;
+	background-color: #f5dc73;
+	margin-bottom: 15px;
+	margin-top: 6px;
+}
+.posts-comments {
+	width: 95%;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #f3ca20;
+}
+.OnePostComments {
+	margin: 10px;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.OnePostComments h3 {
+	width: 90%;
+	margin-top: 10px;
+	border: 0px solid black;
+	text-align: left;
+}
+.OnePostComments h4 {
+	width: 92%;
+	/*padding-left: 280px;*/
+	text-align: left;
+	/*margin: -1px;*/
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: left;
+	font-weight: bold;
+}
+.OnePostComments input {
+	width: 80%;
+	margin: 10px ;
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-color: #f79d94;
+}
+.OnePostComments button {
+	width: auto;
+	padding: 5px;
+	color: #f3ca20;
+	font-size: 16px;
+	border: 1px solid black;
+	border-radius: 35px;
+	cursor: pointer;
+	background-color: black;
+	outline: none;
+}
+.OnePostComments-lists {
+	width: 90%;
+	margin: 2px;
+	border: 0px solid black;
+	border-radius: 5px;
+	background-color: #fa8d82;
+}
+.OnePostComments-lists p {
+	margin: 2px;
+	margin-left: 20px;
+	font-size: 14px;
+	text-align: left;
+}
+.OnePostComments #p2 {
+	width: 50%;
+	margin: auto;
+	font-size: 12px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+.OnePostComments-lists button {
+	width: auto;
+	margin: 6px;
+	padding: 5px;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 35px;
+	color: #f3ca20;
+	background-color: black;
+	cursor: pointer;
+	float: right;
+	outline: none;
+}
+
+/*==================================================|  app  |==============================*/
+.App {
+	text-align: center;
+	min-height: 400px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather', serif;
+}
+/*==================================================|  header - footer  |==============================*/
+.header {
+	width: auto;
+	height: 10vh;
+	background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.footer {
+	width: auto;
+	min-width: 100%;
+	height: 10vh;
+	background-color: black;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #00c6ff;
+}
+/*==================================================|  login - register  |==============================*/
+.login {
+	min-height: 500px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #00c6ff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.login-box {
+	width: auto;
+	min-width: 25%;
+	padding: 1%;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #f3ca20;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login-box input {
+	width: 75%;
+	margin: 2% 0;
+	padding: 1% 0;
+	padding-left: 2%;
+	font-size: 16px;
+	border: 1px solid black;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.login label {
+	margin: 2% 0;
+	font-size: 18px;
+}
+.login button {
+	width: auto;
+	min-width: 30%;
+	margin: 10px;
+	padding: 5px;
+	color: #f3ca20;
+	background-color: black;
+	font-size: 18px;
+	border-radius: 33px;
+	border: 1px solid black;
+	outline: none;
+	cursor: pointer;
+}
+.register {
+	min-height: 500px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #00c6ff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.register-box {
+	width: auto;
+	min-width: 25%;
+	padding: 1%;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #f3ca20;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.register-box input {
+	width: 75%;
+	margin: 2% 0;
+	padding: 1% 0;
+	padding-left: 2%;
+	font-size: 16px;
+	border: 1px solid black;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.register label {
+	margin: 2% 0;
+	font-size: 18px;
+}
+.register button {
+	width: auto;
+	min-width: 30%;
+	margin: 10px;
+	padding: 5px;
+	color: #f3ca20;
+	background-color: black;
+	font-size: 18px;
+	border-radius: 33px;
+	border: 1px solid black;
+	outline: none;
+	cursor: pointer;
+}
+/*==================================================|  profile  |==============================*/
+.profile {
+	min-height: 500px;
+	padding-top: 40px;
+    padding-bottom: 50px;
+	background-color: #00c6ff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.profile h2 {
+	width: auto;
+	min-width: 100%;
+	margin: 10px;
+}
+.profile p {
+	margin: 30px;
+	color: darkgreen;
+	font-size: 25px;
+	font-weight: bold;
+}
+.profile-box {
+	width: auto;
+	min-width: 30%;
+	margin-top: 25px;
+	padding: 1%;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #f3ca20;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+}
+.profile h3 {
+	margin-bottom: 6px;
+}
+.profile-box input {
+	width: 70%;
+	margin: 2% 0;
+	padding: 1% 0;
+	padding-left: 2%;
+	font-size: 16px;
+	border: 1px solid black;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.profile-box button {
+	width: auto;
+	min-width: 33%;
+	margin: 10px;
+	padding: 5px;
+	color: #f3ca20;
+	background-color: black;
+	font-size: 18px;
+	border-radius: 33px;
+	border: 1px solid black;
+	outline: none;
+	cursor: pointer;
+}
+/*==================================================|  users  |==============================*/
+.users {
+	min-height: 500px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #00c6ff;
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+	flex-direction: column;
+}
+.users h1 {
+	width: 25%;
+	/*margin-top: 0px;*/
+	padding: 10px;
+	color: royalblue;
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.users h2 {
+    margin: auto;
+	color: darkred;
+	font-size: 35px;
+	font-weight: bold;
+}
+.users-box {
+	width: 40%;
+	margin: 1em;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #f3ca20;
+}
+.users button {
+	width: auto;
+	margin: 10px;
+	padding: 5px;
+	color: #f3ca20;
+	background-color: black;
+	font-size: 16px;
+	border-radius: 33px;
+	border: 1px solid black;
+	outline: none;
+	cursor: pointer;
+}
+/*==================================================|  user-posts  |==============================*/
+.userPosts {
+	min-height: 500px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #00c6ff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.userPosts button {
+	width: auto;
+	margin: 5px;
+	padding: 10px;
+	color: #f3ca20;
+	background-color: black;
+	font-size: 22px;
+	border-radius: 33px;
+	border: 1px solid black;
+	outline: none;
+	cursor: pointer;
+}
+.userPosts h1 {
+	min-width: 33%;
+	width: auto;
+	margin-top: 1px;
+	padding: 10px;
+	color: royalblue;
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.userPosts h2 {
+	margin: 30px;
+	color: darkred;
+	font-size: 35px;
+	font-weight: bold;
+}
+.userPosts-box {
+	width: 80%;
+	margin: 1em;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #f3ca20;
+}
+.userPosts-box h3 {
+	margin: 10px;
+	padding: 0px;
+	color: darkred;
+	font-size: 25px;
+}
+.userPosts-box h5 {
+	margin: 1px;
+	padding-left: 20px;
+	text-align: left;
+	color: gray;
+	font-size: 14px;
+	font-weight: normal;
+}
+.userPosts-box p {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	font-size: 18px;
+}
+.userPosts-comments {
+	width: 85%;
+	margin: auto;
+	margin-bottom: 8px;
+	padding-left: 15px;
+	padding-left: 15px;
+	border: 1px solid black; 
+	border-radius: 5px;
+	text-align: left;
+	background-color: #fa8d82;
+}
+.userPosts-comments p {
+	text-align: center;
+}
+/*==================================================|           |==============================*/
